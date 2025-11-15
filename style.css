@@ -7,12 +7,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.45;
+    overflow-x: hidden;
 }
 .container {
     width: 100%;
-    max-width: var(--maxw);
+    max-width: 100%;
     margin: 0 auto;
-    padding: 1.75rem 0;
 }
 header {
     position: sticky;
@@ -168,6 +168,18 @@ nav a:hover, .btn-primary:hover {
     grid-template-columns: repeat(1, 1fr);
     margin: auto;
 }
+.videos-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 8px;
+}
+
+.exibicao-video {
+    min-width: 19rem; /* largura fixa → cria scroll */
+    flex-shrink: 0;
+}
+
 .thumb {
     overflow: hidden;
     border-radius: 0.75rem;
@@ -199,6 +211,10 @@ nav a:hover, .btn-primary:hover {
 }
 .muted.small {
     margin: 0.3125rem 0;
+    margin-left: 0.5rem;
+}
+.contato {
+    text-align: center;
 }
 /* .exibicao-video { width: 360px; } */
 .video-wrap {
@@ -209,33 +225,57 @@ nav a:hover, .btn-primary:hover {
     width: 18.75rem;
     margin: auto;
 }
+video {
+    /* width: 100%;
+    height: auto;
+    display: block; */
+    width: 100%;
+    height: 260px;
+}
 .pricing.over {
     /* display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 12px; */
     display: flex;
-    max-width: var(--maxw);
+    max-width: 100%;
     overflow-x: scroll;
     gap: 1.875rem;
 }
 .price-card {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 0.75rem;
     border: 0.0625rem solid rgba(255, 255, 255, 0.03);
     min-width: 16.25rem;
 }
 .price-card h4 { margin: 0 0 0.5rem }
+.price-card h4, .contratar, .price {
+    margin-left: 20px;
+}
 .price-card .price {
     font-weight: 800;
     color: var(--accent);
     font-size: 1.125rem;
 }
-.price-card img { width: 100%; }
+.price-card.card {
+    height: 460px;
+}
+.price-card img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    height: 65%;
+}
 
 .footer {
     margin-top: 2.5rem;
 }
+
+footer .muted.small {
+    padding: 10px 0;
+    margin: 0;
+}
+
 /* Custom Scroll */
 
 ::-webkit-scrollbar {
