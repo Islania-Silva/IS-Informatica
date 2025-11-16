@@ -1,17 +1,17 @@
-# 📱 IS Informática – Assistência Técnica
+#📱 IS Informática – Assistência Técnica
 
 Site institucional desenvolvido em HTML, CSS e um pouco de JavaScript, seguindo a abordagem Mobile First.
 O objetivo é apresentar serviços, valores, trabalhos realizados e facilitar o contato com clientes via WhatsApp e Instagram.
 
-## 🚀 Sobre o Projeto
+##🚀 Sobre o Projeto
 
 Este projeto foi criado como uma página institucional para uma loja de Assistência Técnica de Computadores, Notebooks e Celulares.
 O layout foi planejado inicialmente para dispositivos móveis, garantindo melhor performance, legibilidade e usabilidade em telas pequenas.
 Posteriormente, serão implementadas versões específicas para tablet, notebook e desktop.
 
-## 📌 Funcionalidades
+##📌 Funcionalidades
 
-- Mobile First
+Mobile First
 
 Todo o layout foi projetado primeiramente para telas pequenas.
 
@@ -79,19 +79,19 @@ Fallback para imagens ausentes
 
     ![Imagem do início do site.](assets/img/Captura de tela 2025-11-16 124558.png)
 
-## 🛠 Tecnologias Utilizadas
+##🛠 Tecnologias Utilizadas
 
-    * Frontend
+* Frontend
 
-    * HTML5
+* HTML5
 
-    * CSS3
+* CSS3
 
-    * Variáveis CSS (:root)
+* Variáveis CSS (:root)
 
-    * Flexbox
+* Flexbox
 
-    * Grid
+* Grid
 
 Responsividade (Mobile First)
 
@@ -127,7 +127,7 @@ Layout limpo inspirado em interfaces profissionais
 └── README.md
 ```
 
-## 📸 Prévia das Seções
+##📸 Prévia das Seções
 
 Header com logo + menu
 
@@ -147,7 +147,7 @@ Depoimentos
 
 Footer automático
 
-## 📱 Responsividade
+##📱 Responsividade
 
 O projeto segue Mobile First e será expandido usando as media queries já preparadas:
 
