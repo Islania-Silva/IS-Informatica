@@ -8,16 +8,16 @@ O objetivo é apresentar serviços, valores, trabalhos realizados e facilitar o 
 ## 🚀 Sobre o Projeto
 
 Este projeto foi criado como uma página institucional para uma loja de **Assistência Técnica de Computadores, Notebooks e Celulares**.  
-O layout foi planejado inicialmente para **dispositivos móveis**, garantindo melhor performance, legibilidade e usabilidade em telas pequenas.  
-Posteriormente, serão implementadas versões específicas para **tablet**, **notebook** e **desktop**.
+O layout foi planejado inicialmente para **dispositivos móveis**, garantindo desempenho, legibilidade e usabilidade em telas pequenas.  
+Posteriormente, serão incluídas versões para **tablet**, **notebook** e **desktop**.
 
 ---
 
 ## 📌 Funcionalidades
 
-### ✔ Mobile First  
-Todo o layout foi projetado primeiramente para telas pequenas.  
-Media queries preparadas para expansão do layout:
+### ✔ Prioridade para dispositivos móveis
+Layout projetado para telas pequenas.  
+Media queries já preparadas:
 
 - 600px  
 - 768px  
@@ -25,79 +25,55 @@ Media queries preparadas para expansão do layout:
 - 1280px  
 - 1536px  
 
-### ✔ Navegação suave  
-- Links âncora usam `scrollIntoView()` para rolagem suave.
+### ✔ Navegação suave
+- Links com `scrollIntoView()` para rolagem suave.
 
-### ✔ Menu moderno  
+### ✔ Menu moderno
 - Header com efeito **glassmorphism**  
-- Botão fixo estilo **CTA** para WhatsApp
+- Botão fixo estilo **CTA** para WhatsApp  
 
-### ✔ Seção Hero  
-- Texto destacando os principais serviços  
-- Vídeo demonstrativo responsivo
+### ✔ Seção Hero
+- Texto chamativo  
+- Vídeo responsivo  
 
-### ✔ Galeria de Fotos  
-- Grid responsivo com imagens dos serviços realizados
+### ✔ Galeria de Fotos
+- Grid responsivo para serviços realizados  
 
-### ✔ Seção de Vídeos  
-- Carrossel horizontal de vídeos de manutenções
+### ✔ Seção de Vídeos
+- Carrossel horizontal  
 
-### ✔ Tabela de Valores  
-- Cards com preços e botão para contratar pelo WhatsApp
+### ✔ Tabela de Valores
+- Cards com preços e botão WhatsApp  
 
-### ✔ Sobre  
-- Missão e visão da empresa apresentadas de forma clara
+### ✔ Sobre
+- Missão e visão da empresa  
 
-### ✔ Contato  
-- Link direto para **WhatsApp**  
-- Link para **Instagram**
+### ✔ Contato
+- WhatsApp clicável  
+- Instagram clicável  
 
-### ✔ Depoimentos  
-- Cards com feedbacks de clientes
+### ✔ Depoimentos
+- Cards com feedbacks de clientes  
 
-### ✔ Footer Automático  
-- Ano dinâmico via JavaScript
+### ✔ Footer automático
+- Ano atualizado via JavaScript  
 
-### ✔ Fallback de imagens  
-- Substitui imagens quebradas por SVG padrão
-
----
-
-## 🖼 Prévia
-
-![Imagem do início do site](assets/img/Captura_de_tela_2025-11-16_124558.png)
-
-> *Obs.: Ajuste o nome da imagem caso precise.*
+### ✔ Fallback para imagens ausentes
+- Substituição automática por placeholder SVG
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-### **Frontend**
 - HTML5  
-- CSS3  
-  - Variáveis CSS (`:root`)  
-  - Flexbox  
-  - Grid  
-  - Scroll personalizado  
-  - Mobile First  
-  - Glassmorphism  
-- JavaScript  
-  - Atualização dinâmica do ano  
-  - Smooth scroll  
-  - Fallback de imagens  
-
-### **Design / UI**
-- Tema baseado em **dark mode**  
-- Componentes reutilizáveis  
-- Layout limpo e moderno  
+- CSS3 (Flexbox, Grid, variáveis CSS)  
+- JavaScript (vanilla)  
 
 ---
 
 ## 📂 Estrutura do Projeto
 
 ```txt
-📂 Estrutura do Projeto
 /
 ├── index.html
 ├── style.css
