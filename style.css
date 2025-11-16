@@ -289,3 +289,24 @@ footer .muted.small {
 }
 
 ::-webkit-scrollbar-thumb:hover { background: #086e34; }
+
+/* Responsivo */
+@media (min-width: 600px) {   
+    /* ajustes para tablets pequenos */
+}
+
+@media (min-width: 768px) {  
+    /* ajustes para tablets maiores */
+}
+
+@media (min-width: 1024px) {  
+    /* ajustes para notebooks */
+}
+
+@media (min-width: 1280px) {  
+    /* ajustes para desktops */
+}
+
+@media (min-width: 1536px) {  
+    /* ajustes para telas grandes */
+}
