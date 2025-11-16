@@ -1,177 +1,146 @@
-#📱 IS Informática – Assistência Técnica
+# 📱 IS Informática – Assistência Técnica
 
-Site institucional desenvolvido em HTML, CSS e JavaScript, seguindo a abordagem Mobile First.
-O objetivo é apresentar serviços, valores, trabalhos realizados e facilitar o contato com clientes via WhatsApp e Instagram.
+Site institucional desenvolvido em **HTML, CSS e JavaScript**, seguindo a abordagem **Mobile First**.  
+O objetivo é apresentar serviços, valores, trabalhos realizados e facilitar o contato com clientes via **WhatsApp** e **Instagram**.
 
-🚀 Sobre o Projeto
+---
+
+## 🚀 Sobre o Projeto
 
 Este projeto foi criado como uma página institucional para uma loja de Assistência Técnica de Computadores, Notebooks e Celulares.
-O layout foi planejado inicialmente para dispositivos móveis, garantindo melhor performance, legibilidade e usabilidade em telas pequenas.
-Posteriormente, serão implementadas versões específicas para tablet, notebook e desktop.
 
-📌 Funcionalidades
-✔️ Mobile First
+O layout foi planejado inicialmente para **dispositivos móveis**, garantindo performance, legibilidade e usabilidade.  
+Posteriormente, serão implementadas versões específicas para **tablet, notebook e desktop**.
 
-Todo o layout foi projetado primeiramente para telas pequenas.
+---
 
-O CSS possui media queries vazias preparadas para evolução do projeto:
+## 📌 Funcionalidades
 
-600px
+### ✔️ Mobile First
+- Todo o layout foi projetado primeiramente para telas pequenas.
+- Media queries já preparadas para expansão:
+  - 600px  
+  - 768px  
+  - 1024px  
+  - 1280px  
+  - 1536px  
 
-768px
+### ✔️ Navegação suave
+- Links âncora usando **scrollIntoView()**.
 
-1024px
+### ✔️ Menu moderno
+- Header com efeito **glassmorphism** (blur + transparência).
+- Botão CTA fixo para **WhatsApp**.
 
-1280px
+### ✔️ Seção Hero
+- Texto chamativo com serviços principais.
+- Vídeo demonstrativo responsivo.
 
-1536px
+### ✔️ Galeria de Fotos
+- Grid responsivo exibindo serviços realizados.
 
-✔️ Navegação suave
+### ✔️ Seção de Vídeos
+- Carrossel horizontal com vídeos de manutenções.
 
-Links âncora usam scrollIntoView() para rolagem suave entre seções.
+### ✔️ Tabela de Valores
+- Cards com:
+  - Preço  
+  - Descrição  
+  - Botão para contratar via WhatsApp  
 
-✔️ Menu moderno
+### ✔️ Sobre
+- Missão e visão da empresa.
 
-Header com efeito glassmorphism (blur + transparência).
+### ✔️ Contato
+- **WhatsApp** clicável  
+- **Instagram** clicável  
 
-Botão fixo estilo CTA para WhatsApp.
+### ✔️ Depoimentos
+- Cards com feedbacks de clientes.
 
-✔️ Seção Hero
+### ✔️ Footer Automático
+- Ano atualizado via JavaScript.
 
-Texto destacando os principais serviços.
+### ✔️ Fallback para imagens ausentes
+- Substitui imagens quebradas por um **placeholder SVG**.
 
-Vídeo demonstrativo com estilo responsive.
+---
 
-✔️ Galeria de Fotos
+## 🛠 Tecnologias Utilizadas
 
-Grid responsivo para exibição dos serviços realizados.
+### **Frontend**
+- HTML5  
+- CSS3  
+- Variáveis CSS (:root)  
+- Flexbox  
+- Grid  
+- Responsividade (Mobile First)  
+- Scroll customizado  
+- Glassmorphism  
+- JavaScript Vanilla  
+- Smooth Scroll  
+- Fallback de imagens  
 
-✔️ Seção de Vídeos
+### **Design / UI**
+- Tema escuro moderno  
+- Cards reutilizáveis  
+- Layout limpo e profissional  
 
-Carrossel horizontal com vídeos de antes/depois de manutenções.
+---
 
-✔️ Tabela de Valores
+## 📂 Estrutura do Projeto
 
-Cards com preço, descrição e botão para contratar via WhatsApp.
-
-✔️ Sobre
-
-Missão e visão da empresa apresentadas de forma clara.
-
-✔️ Contato
-
-WhatsApp clicável
-
-Instagram clicável
-
-✔️ Depoimentos
-
-Cards com feedbacks de clientes.
-
-✔️ Footer Automático
-
-O ano atual é inserido dinamicamente via JavaScript.
-
-✔️ Fallback para imagens ausentes
-
-Substitui imagens inexistentes por um placeholder SVG automático.
-
-🛠 Tecnologias Utilizadas
-Frontend
-
-HTML5
-
-CSS3
-
-Variáveis CSS (:root)
-
-Flexbox
-
-Grid
-
-Responsividade (Mobile First)
-
-Scroll personalizado
-
-Glassmorphism
-
-JavaScript Vanilla
-
-Atualização dinâmica do ano
-
-Smooth Scroll
-
-Fallback de imagens
-
-Design / UI
-
-Cores modernas baseadas em tema dark
-
-Componentes reutilizáveis (cards, botões, grids)
-
-Layout limpo inspirado em interfaces profissionais
-
-```
-📂 Estrutura do Projeto
 /
 ├── index.html
 ├── style.css
 ├── global.css
 ├── assets/
-│   ├── img/
-│   └── videos/
+│ ├── img/
+│ └── videos/
 └── README.md
-```
-!(assets/img/Captura de tela 2025-11-16 124558.png)
 
-📸 Prévia das Seções
+yaml
+Copiar código
 
-Header com logo + menu
+---
 
-Hero com chamada e vídeo
+## 📸 Prévia das Seções
 
-Galeria de Fotos
+- Header com logo + menu  
+- Hero com chamada e vídeo  
+- Galeria de Fotos  
+- Vídeos com scroll horizontal  
+- Tabela de Preços  
+- Sobre (missão e visão)  
+- Contato  
+- Depoimentos  
+- Footer automático  
 
-Vídeos com scroll horizontal
+> ![Prévia do projeto](assets/img/Captura%20de%20tela%202025-11-16%20124558.png)
 
-Tabela de Preços
+---
 
-Sobre (missão e visão)
+## 📱 Responsividade
 
-Contato
+Media queries utilizadas:
 
-Depoimentos
-
-Footer automático
-
-📱 Responsividade
-
-O projeto segue Mobile First e será expandido usando as media queries já preparadas:
-
+```css
 @media (min-width: 600px) { }
-
 @media (min-width: 768px) { }
-
 @media (min-width: 1024px) { }
-
 @media (min-width: 1280px) { }
-
 @media (min-width: 1536px) { }
-
 🔧 Como Executar
-
 Baixe ou clone o repositório
 
-Abra o arquivo index.html em qualquer navegador
+Abra o arquivo index.html no navegador
 
 Para melhor experiência, teste no modo mobile do DevTools (F12)
 
 📝 Licença
-
 Projeto de uso pessoal/estudo.
-Você pode modificar livremente para fins.
+Você pode modificar livremente para seus próprios fins.
 
 🙋‍♀️ Autor
-
 IS Informática – Assistência Técnica
 Criado com foco em agilidade, transparência e profissionalismo no atendimento.
