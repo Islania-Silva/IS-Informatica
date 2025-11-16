@@ -89,7 +89,7 @@ Posteriormente, serão implementadas versões específicas para **tablet, notebo
 ---
 
 ## 📂 Estrutura do Projeto
-
+```
 /
 ├── index.html
 ├── style.css
@@ -98,9 +98,7 @@ Posteriormente, serão implementadas versões específicas para **tablet, notebo
 │ ├── img/
 │ └── videos/
 └── README.md
-
-yaml
-Copiar código
+```
 
 ---
 
@@ -117,6 +115,7 @@ Copiar código
 - Footer automático  
 
 > ![Prévia do projeto](assets/img/Captura%20de%20tela%202025-11-16%20124558.png)
+> ![Prévia do projeto](assets/img/image.png)
 
 ---
 
@@ -130,7 +129,9 @@ Media queries utilizadas:
 @media (min-width: 1024px) { }
 @media (min-width: 1280px) { }
 @media (min-width: 1536px) { }
+
 🔧 Como Executar
+
 Baixe ou clone o repositório
 
 Abra o arquivo index.html no navegador
