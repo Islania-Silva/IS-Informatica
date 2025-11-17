@@ -23,6 +23,7 @@ header {
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    justify-content: center;
 }
 .brand img {
     height: 2.5rem;
@@ -45,7 +46,13 @@ header {
     backdrop-filter: blur(0.375rem);
 }
 nav {
-    margin-top: 0.8125rem;
+    /* margin-top: 0.8125rem; */
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+nav div {
+    width: 290px;
 }
 nav a {
     color: var(--white);
@@ -59,7 +66,7 @@ nav a {
 .btn-primary:hover {
     background: #086e34;
 } */
- .cta-wa {
+.cta-wa {
     background: var(--accent);
     color: #02120a;
     padding: 0.1875rem 0.625rem;
@@ -73,7 +80,7 @@ nav a {
     grid-template-columns: 1fr;
     gap: 1.25rem;
     align-items: center;
-    margin: 1.75rem 0;
+    /* margin: 1.75rem 0; */
     /* background: black; */
 }
 .hero-left { padding: 0 0.7rem; }
@@ -211,7 +218,10 @@ nav a:hover, .btn-primary:hover {
 }
 .muted.small {
     margin: 0.3125rem 0;
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
+}
+ul.muted.small {
+    padding-left: 50px;
 }
 .contato {
     text-align: center;
