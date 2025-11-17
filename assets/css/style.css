@@ -304,6 +304,14 @@ footer .muted.small {
 /* Responsivo */
 @media (min-width: 600px) {   
     /* ajustes para tablets pequenos */
+    nav div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .grid.cols-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (min-width: 768px) {  
