@@ -114,8 +114,8 @@ Posteriormente, serão implementadas versões específicas para **tablet, notebo
 - Depoimentos  
 - Footer automático  
 
-> ![Prévia do projeto](assets/img/Captura%20de%20tela%202025-11-16%20124558.png)
-> ![Prévia do projeto](assets/img/image.png)
+> ![Prévia do projeto](assets/img/Tela1.jpg)
+> ![Prévia do projeto](assets/img/Tela2.jpg)
 
 ---
 
