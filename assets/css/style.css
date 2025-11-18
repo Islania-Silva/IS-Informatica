@@ -277,9 +277,9 @@ video {
     width: 85%;
     height: 65%;
 }
-
 .footer {
     margin-top: 2.5rem;
+    text-align: center;
 }
 
 footer .muted.small {
@@ -302,6 +302,12 @@ footer .muted.small {
 ::-webkit-scrollbar-thumb:hover { background: #086e34; }
 
 /* Responsivo */
+@media (max-width: 767px) {
+    .none {
+        display: none;
+    }
+}
+
 @media (min-width: 600px) {   
     /* ajustes para tablets pequenos */
     nav div {
@@ -312,14 +318,58 @@ footer .muted.small {
     .grid.cols-3 {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .none {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {  
     /* ajustes para tablets maiores */
+    .hero {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .transparente {
+        display: none;
+        height: 30.875rem;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .transparente video {
+        height: 29.875rem;
+    }
+
+    .redes {
+        justify-content: flex-start !important;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sobre {
+        gap: 40px !important;
+    }
 }
 
 @media (min-width: 1024px) {  
     /* ajustes para notebooks */
+    .transparente {
+        height: 26.875rem;
+    }
+
+    .transparente video {
+        height: 25.875rem;
+    }
+
+    .grid.cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (min-width: 1280px) {  
