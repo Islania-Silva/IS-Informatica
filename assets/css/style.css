@@ -175,6 +175,8 @@ nav a:hover, .btn-primary:hover {
     overflow-x: auto;
     gap: 1rem;
     padding-bottom: 0.5rem;
+    width: 540px;
+    margin: auto;
 }
 
 .exibicao-video {
@@ -357,6 +359,16 @@ footer .muted.small {
     .container {
         max-width: 750px;
     }
+
+    .pricing.over {
+        width: 550px;
+        margin: auto;
+    }
+
+    .videos-scroll {
+        width: 550px;
+        margin: auto;
+    }
 }
 
 @media (min-width: 1024px) {  
@@ -379,6 +391,16 @@ footer .muted.small {
 
     .hero {
         margin-top: 30px;
+    }
+
+    .pricing.over {
+        width: 820px;
+        margin: auto;
+    }
+
+    .videos-scroll {
+        width: 820px;
+        margin: auto;
     }
 }
 
@@ -430,5 +452,15 @@ footer .muted.small {
 
     #depoimentos {
         margin-top: 70px !important;
+    }
+
+    .pricing.over {
+        width: 880px;
+        margin: auto;
+    }
+
+    .videos-scroll {
+        width: 880px;
+        margin: auto;
     }
 }
