@@ -126,24 +126,18 @@ nav a:hover, .btn-primary:hover {
     background: #086e34;
 }
 .hero-left .btn-primary {
-    animation: whats 1.1s ease-in-out infinite;
+    animation: whats 2.1s ease-in-out infinite;
 }
 
 @keyframes whats {
     0%   { transform: rotate(0); }
 
     /* Primeiro ciclo */
-    10%  { transform: rotate(-10deg); }
-    15%  { transform: rotate(10deg); }
-    20%  { transform: rotate(-10deg); }
-
-    /* Segundo ciclo (duplicado) */
-    30%  { transform: rotate(10deg); }
-    35%  { transform: rotate(-10deg); }
-    40%  { transform: rotate(10deg); }
+    25%  { transform: rotate(-10deg); }
+    50%  { transform: rotate(10deg); }
 
     /* Fim */
-    55%, 100% { transform: rotate(0); }
+    75%, 100% { transform: rotate(0); }
 }
 
 .btn-secondary {
@@ -355,6 +349,14 @@ footer .muted.small {
     .sobre {
         gap: 40px !important;
     }
+
+    .grid.cols-3 {
+        gap: 30px;
+    }
+
+    .container {
+        max-width: 750px;
+    }
 }
 
 @media (min-width: 1024px) {  
@@ -370,12 +372,63 @@ footer .muted.small {
     .grid.cols-3 {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .container {
+        max-width: 950px;
+    }
+
+    .hero {
+        margin-top: 30px;
+    }
 }
 
 @media (min-width: 1280px) {  
     /* ajustes para desktops */
+    .container {
+        max-width: 1190px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero {
+        margin-top: 40px;
+    }
 }
 
 @media (min-width: 1536px) {  
     /* ajustes para telas grandes */
+    .container {
+        max-width: 1440px;
+    }
+
+    #trabalhos .grid.cols-3 {
+        gap: 70px !important;
+    }
+
+    .hero {
+        margin-bottom: 70px;
+    }
+
+    .videos {
+        margin-top: 70px !important;
+    }
+
+    #valores {
+        margin-top: 70px !important;
+    }
+
+    #about {
+        margin-top: 70px !important;
+    }
+
+    #contact {
+        margin-top: 70px !important;
+    }
+
+    #depoimentos {
+        margin-top: 70px !important;
+    }
 }
