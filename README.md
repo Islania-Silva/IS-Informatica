@@ -130,10 +130,11 @@ Media queries utilizadas:
 @media (min-width: 1280px) { }
 @media (min-width: 1536px) { }
 
+```
 ## 📁 Como visualizar o projeto
 
 Você pode:
-```
+
 1. Clonar este repositório:
 ```bash
 git clone https://github.com/Isa-Silva/IS-Informatica.git
