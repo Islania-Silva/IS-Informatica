@@ -132,14 +132,13 @@ Media queries utilizadas:
 
 🔧 Como Executar
 
-1. Baixe ou clone o repositório
+1. Baixe ou clone o repositório e abra o arquivo index.html no navegador
 
 ```bash
 git clone https://github.com/Isa-Silva/ProjetoLoja.git
 ```
-Abra o arquivo index.html no navegador
 
-2. Acesse pelo link do Git Pages
+2. Acesse pelo link do Git Pages:
 
 ```bash
 islania-silva.github.io/IS-Informatica/
