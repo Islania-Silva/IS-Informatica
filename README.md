@@ -130,16 +130,16 @@ Media queries utilizadas:
 @media (min-width: 1280px) { }
 @media (min-width: 1536px) { }
 
-🔧 Como Executar
+## 📁 Como visualizar o projeto
 
-1. Baixe ou clone o repositório e abra o arquivo index.html no navegador
 
+Você pode:
+
+1. Clonar este repositório:
 ```bash
-git clone https://github.com/Isa-Silva/ProjetoLoja.git
+git clone https://github.com/Isa-Silva/IS-Informatica.git
 ```
-
-2. Acesse pelo link do Git Pages:
-
+2. Abrir o Git Pages:
 ```bash
 islania-silva.github.io/IS-Informatica/
 ```
