@@ -132,11 +132,14 @@ Media queries utilizadas:
 
 🔧 Como Executar
 
-Baixe ou clone o repositório
+1. Baixe ou clone o repositório
 
 Abra o arquivo index.html no navegador
 
-Para melhor experiência, teste no modo mobile do DevTools (F12)
+2. Acesse pelo link do Git Pages
+´´´bash
+https://islania-silva.github.io/IS-Informatica/
+´´´
 
 📝 Licença
 Projeto de uso pessoal/estudo.
