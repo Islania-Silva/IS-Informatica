@@ -132,9 +132,8 @@ Media queries utilizadas:
 
 ## 📁 Como visualizar o projeto
 
-
 Você pode:
-
+```
 1. Clonar este repositório:
 ```bash
 git clone https://github.com/Isa-Silva/IS-Informatica.git
