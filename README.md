@@ -134,12 +134,16 @@ Media queries utilizadas:
 
 1. Baixe ou clone o repositório
 
+```bash
+git clone https://github.com/Isa-Silva/ProjetoLoja.git
+```
 Abra o arquivo index.html no navegador
 
 2. Acesse pelo link do Git Pages
-´´´bash
-https://islania-silva.github.io/IS-Informatica/
-´´´
+
+```bash
+islania-silva.github.io/IS-Informatica/
+```
 
 📝 Licença
 Projeto de uso pessoal/estudo.
